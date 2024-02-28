@@ -8,7 +8,7 @@
   
   
   
-    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
   
 
   
@@ -53,17 +53,17 @@
   
   
 
-  <meta name="author" content="Kaitlynn Pineda" />
+  <meta name="author" content="Kaitlynn T. Pineda" />
 
   
   
   
     
   
-  <meta name="description" content="PhD Student in Computer Science" />
+  <meta name="description" content="Ph.D. Student in Computer Science" />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://example.com/tag/academic/" />
+  <link rel="alternate" hreflang="en-us" href="https://kaitlynn-pineda.github.io/publication-type/2/" />
 
   
   
@@ -248,37 +248,76 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.7fa18a541b489204d14a3f8fd75bb3b5.css" />
-
-  
-
-
-
-  
-
-  
+  <link rel="stylesheet" href="/css/wowchemy.246129d782c938a644fe2d653d8a976f.css" />
 
   
 
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-215889294-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-215889294-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
   
   
   
 
   
-    <link rel="alternate" href="/tag/academic/index.xml" type="application/rss+xml" title="Academic" />
+    <link rel="alternate" href="/publication-type/2/index.xml" type="application/rss+xml" title="Kaitlynn T. Pineda" />
   
 
   
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hufd1ef7746ab63a23cbd2ad4166567bf1_1275_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hufd1ef7746ab63a23cbd2ad4166567bf1_1275_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://example.com/tag/academic/" />
+  <link rel="canonical" href="https://kaitlynn-pineda.github.io/publication-type/2/" />
 
   
   
@@ -300,14 +339,14 @@
   
   <meta property="twitter:card" content="summary" />
   
-  <meta property="og:site_name" content="Academic" />
-  <meta property="og:url" content="https://example.com/tag/academic/" />
-  <meta property="og:title" content="Academic" />
-  <meta property="og:description" content="PhD Student in Computer Science" /><meta property="og:image" content="https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:site_name" content="Kaitlynn T. Pineda" />
+  <meta property="og:url" content="https://kaitlynn-pineda.github.io/publication-type/2/" />
+  <meta property="og:title" content="2 | Kaitlynn T. Pineda" />
+  <meta property="og:description" content="Ph.D. Student in Computer Science" /><meta property="og:image" content="https://kaitlynn-pineda.github.io/media/icon_hufd1ef7746ab63a23cbd2ad4166567bf1_1275_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://kaitlynn-pineda.github.io/media/icon_hufd1ef7746ab63a23cbd2ad4166567bf1_1275_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2020-12-13T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2022-03-07T00:00:00&#43;00:00" />
     
   
 
@@ -323,7 +362,7 @@
 
 
 
-  <title>Academic</title>
+  <title>1 | Kaitlynn T. Pineda</title>
 </head>
 
 
@@ -338,7 +377,7 @@
   
   
   
-  <script src="/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js"></script>
+  <script src="/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js"></script>
 
   
 
@@ -396,305 +435,120 @@
 
 
 
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container-xl">
-
-    
-    <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Academic</a>
-    </div>
-    
-
-    
-    <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-    <span><i class="fas fa-bars"></i></span>
-    </button>
-    
-
-    
-    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Academic</a>
-    </div>
-    
-
-    
-    
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
 
       
-      <ul class="navbar-nav d-md-inline-flex">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#posts"><span>Posts</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#talks"><span>Talks</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#featured"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Kaitlynn T. Pineda</a>
+      </div>
       
 
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Kaitlynn T. Pineda</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
         
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/conf-pub"><span>Publications</span></a>
+          </li>
+
+          
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/resume/Pineda_Kaitlynn_CV.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
       </ul>
+
     </div>
-
-    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-
-      
-      
-        
-      
-
-      
-      
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
-      
-
-      
-      
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-          <i class="fas fa-moon" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
-        </div>
-      </li>
-      
-
-      
-      
-
-    </ul>
-
-  </div>
-</nav>
+  </nav>
+</header>
 
 
   </div>
@@ -721,7 +575,7 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1>Academic</h1>
+  <h1>1</h1>
 
   
 
@@ -736,13 +590,6 @@
   
   
     
-      
-
-
-
-
-
-
 
 
 
@@ -753,19 +600,19 @@
   
 
 
-<div class="media stream-item">
+
+
+
+
+
+
+<div class="media stream-item view-compact">
   <div class="media-body">
 
     <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/post/getting-started/" >Welcome to Wowchemy, the website builder for Hugo</a>
+      <a href="/publication/old/" >Older adults’ expectations, experiences, and preferences in programming physical robot assistance</a>
     </div>
 
-    
-    <a href="/post/getting-started/"  class="summary-link">
-      <div class="article-style">
-        Welcome 👋 We know that first impressions are important, so we&rsquo;ve populated your new site with some initial content to help you get familiar with everything in no time.
-      </div>
-    </a>
     
 
     <div class="stream-meta article-metadata">
@@ -773,60 +620,14 @@
       
 
       
+      <div>
         
 
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  <span class="author-highlighted">
-      Kaitlynn Pineda</span>, <span >
-      吳恩達</span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    Dec 13, 2020
-  </span>
-  
-
-  
-
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    3 min read
-  </span>
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-  <span class="middot-divider"></span>
-  <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/category/demo/">Demo</a>, <a href="/category/%E6%95%99%E7%A8%8B/">教程</a></span>
-  
-
-</div>
-
+  <span >
+      Gopika Ajaykumar</span>, <span class="author-highlighted">
+      Kaitlynn T. Pineda</span>, <span >
+      Chien-Ming Huang</span>
+      </div>
       
     </div>
 
@@ -836,16 +637,69 @@
   <div class="ml-3">
     
     
+  </div>
+</div>
+
+  
     
-    <a href="/post/getting-started/" >
-      <img src="/post/getting-started/featured_hub9ee31969f44a6711206a2baf9f065b4_241861_150x0_resize_q75_lanczos.jpg" alt="Welcome to Wowchemy, the website builder for Hugo" loading="lazy">
-    </a>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<!-- <div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/publication/rfg/" >Challenges Deploying Robots During a Pandemic: An Effort to Fight Social Isolation Among Children</a>
+    </div>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  <span >
+      Nathan Tsoi</span>, <span >
+      Joe Connolly</span>, <span >
+      Emmanuel Adéníran</span>, <span >
+      Amanda Hansen</span>, <span class="author-highlighted">
+      Kaitlynn T. Pineda</span>, <span >
+      Timothy Adamson</span>, <span >
+      Sydney Thompson</span>, <span >
+      Rebecca Ramnauth</span>, <span >
+      Maryenl Vázquez</span>, <span >
+      Brian Scassellati</span>
+      </div>
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
     
   </div>
 </div>
 
-    
-  
+   -->
 
   
 
@@ -866,6 +720,10 @@
 
   
 
+  
+  <p class="powered-by">
+    © 2023 Kaitlynn T. Pineda
+  </p>
   
 
   
@@ -999,6 +857,15 @@
     
 
     
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.1cb9e2fc8399acee94eab837265b73bf.js" type="module"></script>
     
     
     
@@ -1010,7 +877,7 @@
       
     
     
-    <script src="/en/js/wowchemy.min.7cd6ec29d281a73c92a2958a1584aadc.js"></script>
+    <script src="/en/js/wowchemy.min.247fd8f54253895301106e3006f53f38.js"></script>
 
     
 
